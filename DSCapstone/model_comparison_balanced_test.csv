@@ -1,0 +1,4 @@
+Model,Accuracy,Precision,Recall,F1 Score,Notes,Confusion Matrix
+RandomForest,0.77,0.7547169811320755,0.8,0.7766990291262136,Best Recall,"[[37, 13], [10, 40]]"
+LogisticRegression,0.7,0.6923076923076923,0.72,0.7058823529411765,,"[[34, 16], [14, 36]]"
+XGBoost,0.9,1.0,0.8,0.8888888888888888,Best F1 Score,"[[50, 0], [10, 40]]"
